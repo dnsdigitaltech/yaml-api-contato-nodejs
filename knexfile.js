@@ -3,9 +3,9 @@ module.exports = {
         client: 'pg',
         version: '^7.12.1',
         connection: {
-            host: '192.168.223.53',
-            user: 'mcavalini',
-            password: 'cavalini1998',
+            host: 'host',
+            user: 'user',
+            password: 'pswd',
             database: 'nodejs' 
         },
         migrations: { directory: 'src/migrations' },
@@ -15,9 +15,9 @@ module.exports = {
         client: 'pg',
         version: '^7.12.1',
         connection: {
-            host: '192.168.223.53',
-            user: 'mcavalini',
-            password: 'cavalini1998',
+            host: 'host',
+            user: 'user',
+            password: 'pswd',
             database: 'prodnodejs' 
         },
         migrations: { directory: 'src/migrations' },
