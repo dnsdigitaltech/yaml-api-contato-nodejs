@@ -25,6 +25,18 @@ module.exports = (app) => {
       .catch(err => next(err));
   });
 
+  router.put('/:id', (req, res, next) => {
+    app.services.contato.update(req.params.id, req.body)
+      .then(result => res.status(200).json(result[0]))
+      .catch(err => next(err));
+  });
+  
+  router.delete('/:id', (req, res, next) => {
+    app.services.contato.remove(req.params.id)
+      .then(() => res.status(204).send())      
+      .catch(err => next(err));
+  });
+
   return router;
 };
 

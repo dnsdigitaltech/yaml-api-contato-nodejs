@@ -238,3 +238,35 @@
  "level": "error",
  "timestamp": "2019-11-04T21:05:33.779Z"
 }
+{
+ "id": "c3c4f2d4-9bd9-4065-b404-c53373a89a5b",
+ "name": "Error",
+ "message": "Cannot set headers after they are sent to the client",
+ "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:485:11)\n    at ServerResponse.header (/var/www/html/yaml-api-contato-nodejs/node_modules/express/lib/response.js:639:10)\n    at ServerResponse.json (/var/www/html/yaml-api-contato-nodejs/node_modules/express/lib/response.js:223:10)\n    at /var/www/html/yaml-api-contato-nodejs/src/routes/contatos.js:38:34\n    at tryCatcher (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:517:31)\n    at Promise._settlePromise (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:574:18)\n    at Promise._settlePromise0 (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:619:10)\n    at Promise._settlePromises (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:699:18)\n    at _drainQueueStep (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:138:12)\n    at _drainQueue (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:131:9)\n    at Async._drainQueues (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:17:14)\n    at processImmediate (internal/timers.js:439:21)",
+ "level": "error",
+ "timestamp": "2019-11-04T21:24:51.824Z"
+}
+{
+ "id": "4f0dd1c4-9eb2-4ec9-916b-813abee11feb",
+ "name": "Error",
+ "message": "Cannot set headers after they are sent to the client",
+ "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:485:11)\n    at ServerResponse.header (/var/www/html/yaml-api-contato-nodejs/node_modules/express/lib/response.js:639:10)\n    at ServerResponse.json (/var/www/html/yaml-api-contato-nodejs/node_modules/express/lib/response.js:223:10)\n    at /var/www/html/yaml-api-contato-nodejs/src/routes/contatos.js:38:34\n    at tryCatcher (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:517:31)\n    at Promise._settlePromise (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:574:18)\n    at Promise._settlePromise0 (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:619:10)\n    at Promise._settlePromises (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:699:18)\n    at _drainQueueStep (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:138:12)\n    at _drainQueue (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:131:9)\n    at Async._drainQueues (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:17:14)\n    at processImmediate (internal/timers.js:439:21)",
+ "level": "error",
+ "timestamp": "2019-11-04T21:24:59.074Z"
+}
+{
+ "id": "bd5b7146-5922-4b4d-8636-7af46b74dd15",
+ "name": "Error",
+ "message": "Cannot remove headers after they are sent to the client",
+ "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot remove headers after they are sent to the client\n    at ServerResponse.removeHeader (_http_outgoing.js:543:11)\n    at ServerResponse.send (/var/www/html/yaml-api-contato-nodejs/node_modules/express/lib/response.js:184:10)\n    at /var/www/html/yaml-api-contato-nodejs/src/routes/contatos.js:36:35\n    at tryCatcher (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:517:31)\n    at Promise._settlePromise (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:574:18)\n    at Promise._settlePromise0 (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:619:10)\n    at Promise._settlePromises (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:699:18)\n    at _drainQueueStep (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:138:12)\n    at _drainQueue (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:131:9)\n    at Async._drainQueues (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:17:14)\n    at processImmediate (internal/timers.js:439:21)",
+ "level": "error",
+ "timestamp": "2019-11-04T21:25:32.668Z"
+}
+{
+ "id": "21d9deaa-2623-4489-aa16-959c661f6370",
+ "name": "Error",
+ "message": "Cannot set headers after they are sent to the client",
+ "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:485:11)\n    at ServerResponse.header (/var/www/html/yaml-api-contato-nodejs/node_modules/express/lib/response.js:639:10)\n    at ServerResponse.json (/var/www/html/yaml-api-contato-nodejs/node_modules/express/lib/response.js:223:10)\n    at /var/www/html/yaml-api-contato-nodejs/src/routes/contatos.js:36:42\n    at tryCatcher (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:517:31)\n    at Promise._settlePromise (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:574:18)\n    at Promise._settlePromise0 (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:619:10)\n    at Promise._settlePromises (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/promise.js:699:18)\n    at _drainQueueStep (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:138:12)\n    at _drainQueue (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:131:9)\n    at Async._drainQueues (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/html/yaml-api-contato-nodejs/node_modules/bluebird/js/release/async.js:17:14)\n    at processImmediate (internal/timers.js:439:21)",
+ "level": "error",
+ "timestamp": "2019-11-04T21:26:06.069Z"
+}

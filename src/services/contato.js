@@ -22,6 +22,18 @@ module.exports = (app) => {
       .select();
   };
 
-  return { save, findOne, find };
+  const update = (id, contato) => {
+    return app.db('contatos')
+      .where({ id })
+      .update(contato, '*');
+  };
+
+  const remove = (id) => {
+    return app.db('contatos')
+      .where({ id })
+      .del();
+  };
+
+  return { save, findOne, find, update, remove};
 };
 
