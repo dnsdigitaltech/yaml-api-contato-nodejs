@@ -7,11 +7,21 @@ module.exports = (app) => {
     if (!contato.canal) throw new ValidationError('Informe o canal para o contato, ex: email, cel ou fixo');
     if (!contato.valor) throw new ValidationError('Informe o valor para o canle de contato');
     if (!contato.obs) throw new ValidationError('Observação que sja pertinente');
-
-    console.log(contato);
-
     return app.db('contatos').insert(contato, '*');
   };
 
-  return { save };
+  const findOne = (filter = {}) => {
+    return app.db('contatos')
+      .where(filter)
+      .first();
+  };
+
+  const find = (filter = {}) => {
+    return app.db('contatos')
+      .where(filter)
+      .select();
+  };
+
+  return { save, findOne, find };
 };
+

@@ -3,6 +3,7 @@ const RecursoIndevidoError = require('../errors/RecursoIndevidoError');
 
 module.exports = (app) => {
   const router = express.Router();
+
   router.post('/', (req, res, next) => {
     app.services.contato.save({ ...req.body})
       .then((result) => {
@@ -12,5 +13,19 @@ module.exports = (app) => {
       }).catch(err => next(err));// middlware err
   });
 
+  router.get('/:id', (req, res, next) => {   
+    app.services.contato.findOne({ id: req.params.id })        
+      .then(result => res.status(200).json(result))
+      .catch(err => next(err));
+  });
+
+  router.get('/', (req, res, next) => {     
+    app.services.contato.find()
+      .then(result => res.status(200).json(result))
+      .catch(err => next(err));
+  });
+
   return router;
 };
+
+
